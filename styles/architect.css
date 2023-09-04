@@ -24,8 +24,9 @@
 
 header{
     background: rgba(255, 144, 14, 0.10);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 50px 240px;
+    margin-bottom: 50px;
 }
 
 nav{
@@ -105,4 +106,52 @@ nav li a{
         padding: 50px;
     }
 
+}
+
+/* Main part */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+/* Teams styles */
+
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+ 
+    margin-left: 30px;
+}
+.teams-content{
+    border: 1px solid red;
+    padding-left: 70px;
+    padding-right: 70px;
+   
+}
+.teams-title{
+    font-size: 45px;
+}
+.teams-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+.quick{
+    color: #727272;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.feature{
+    color: #FF900E;
+    font-weight: 700;
 }
